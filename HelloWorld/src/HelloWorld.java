@@ -16,9 +16,6 @@ public class HelloWorld {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-<<<<<<< HEAD
-		System.out.println("Hello ASE2016 - how are you now? :)");
-=======
 		System.out.println("Hello ASE2016 - how are you? :)");
 		System.out.print("Please enter your name: ");
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
@@ -29,7 +26,6 @@ public class HelloWorld {
 		} catch (IOException e) {
 			System.out.println("That is not a valid name!");
 		}
->>>>>>> hello_user
 	}
 
 }
